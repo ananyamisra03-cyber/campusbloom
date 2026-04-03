@@ -1,13 +1,8 @@
 {
   "name": "campusbloom",
   "version": "1.0.0",
-  "description": "CampusBloom – College Student Organizer",
   "scripts": {
-    "build": "echo \"no build needed\"",
-    "install:all": "cd backend && npm install && cd ../frontend && npm install",
-    "dev:backend": "cd backend && npm run dev",
-    "dev:frontend": "cd frontend && npm run dev",
-    "start": "cd backend && npm start"
-  },
-  "engines": { "node": ">=18.0.0" }
+    "build": "cd backend && npm install",
+    "start": "cd backend && node server.js"
+  }
 }
